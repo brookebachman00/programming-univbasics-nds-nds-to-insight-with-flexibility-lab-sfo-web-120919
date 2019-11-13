@@ -76,7 +76,7 @@ end
 def movies_with_directors_set(source)
   new_array = []
   source.each do |director|
-    new_array << movies_with_director_key(director,movies)
+    new_array << movies_with_director_key(director)
   end
   return new_array
 
