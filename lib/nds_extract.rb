@@ -42,6 +42,7 @@ new_array = []
   movies_collection.each do |movie|
     new_array << movie_with_director_name(name,movie )
   end
+return new_array
 
   # GOAL: For each Hash in an Array (movies_collection), provide a collection
   # of movies and a directors name to the movie_with_director_name method
