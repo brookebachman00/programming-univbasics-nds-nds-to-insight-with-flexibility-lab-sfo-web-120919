@@ -1,5 +1,6 @@
 # Provided, don't edit
 require 'directors_database'
+require 'pry'
 
 # A method we're giving you. This "flattens"  Arrays of Arrays so: [[1,2],
 # [3,4,5], [6]] => [1,2,3,4,5,6].
@@ -18,6 +19,7 @@ def flatten_a_o_a(aoa)
   end
 
   result
+  binding.pry
 end
 
 def movie_with_director_name(director_name, movie_data)
