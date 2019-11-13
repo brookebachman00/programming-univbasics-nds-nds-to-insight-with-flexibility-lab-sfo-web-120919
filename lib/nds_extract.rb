@@ -60,11 +60,14 @@ end
 
 
 def gross_per_studio(collection)
-
   new_hash = {}
   collection.each do |movie|
-
-  new_hash[:studio]= movie[:worldwide_gross]
+    if !new_hash[movie[:studio]]
+      new_hash[movie[:studio]] = movie[:worldwide_gross]
+    else
+      new_hash[movie[:studio]] += movie[:worldwide_gross]
+    
+    end
 
   end
   # GOAL: Given an Array of Hashes where each Hash represents a movie,
