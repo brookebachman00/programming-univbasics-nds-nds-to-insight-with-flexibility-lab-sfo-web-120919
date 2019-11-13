@@ -50,12 +50,9 @@ new_array = []
   # returned by this method.
   #
   # INPUT:
-
   # * name: A director's name
   # * movies_collection: An Array of Hashes where each Hash represents a movie
-  #
   # RETURN:
-  #
   # Array of Hashes where each Hash represents a movie; however, they should all have a
   # :director_name key. This addition can be done by using the provided
   # movie_with_director_name method
