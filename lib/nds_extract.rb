@@ -39,7 +39,7 @@ end
 
 def movies_with_director_key(name, movies_collection)
 new_array = []
-  movies_collection.each do |movies|
+  movies_collection.each do |movie|
     new_array += movie[:movies_with_director_names]
   end
 
