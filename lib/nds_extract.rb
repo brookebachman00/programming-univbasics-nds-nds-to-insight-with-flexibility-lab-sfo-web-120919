@@ -79,7 +79,7 @@ def movies_with_directors_set(source)
     binding.pry
     name = source[:name]
     movies = source[:movies]
-    new_array << movies_with_director_key(director)
+    new_array << movies_with_director_key(name,movies)
   end
 
   return new_array
