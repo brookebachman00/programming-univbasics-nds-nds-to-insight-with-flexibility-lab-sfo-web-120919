@@ -76,6 +76,7 @@ end
 def movies_with_directors_set(source)
   new_array = []
   source.each do
+  end
 
   binding.pry
   # GOAL: For each director, find their :movies Array and stick it in a new Array
