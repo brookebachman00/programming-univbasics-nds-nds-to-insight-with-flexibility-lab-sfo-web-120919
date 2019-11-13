@@ -41,6 +41,7 @@ def movies_with_director_key(name, movies_collection)
 new_array = []
   movies_collection.each do |movies|
     new_array += movie[:movies_with_director_names]
+  end
 
   # GOAL: For each Hash in an Array (movies_collection), provide a collection
   # of movies and a directors name to the movie_with_director_name method
