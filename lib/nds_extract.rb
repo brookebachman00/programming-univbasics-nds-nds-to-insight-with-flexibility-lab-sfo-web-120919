@@ -60,7 +60,7 @@ end
 
 
 def gross_per_studio(collection)
-  binding.pry
+
   new_hash = {}
   collection.each do |movie|
   new_hash[:studio]=[:worldwide_gross]
