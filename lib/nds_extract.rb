@@ -78,6 +78,7 @@ def movies_with_directors_set(source)
   source.each do |director|
     new_array << movies_with_director_key(director)
   end
+  binding.pry
   return new_array
 
   # GOAL: For each director, find their :movies Array and stick it in a new Array
