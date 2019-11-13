@@ -77,6 +77,8 @@ def movies_with_directors_set(source)
   new_array = []
   source.each do |director|
     binding.pry
+    name = source[:name]
+    movies = source[:movies]
     new_array << movies_with_director_key(director)
   end
 
