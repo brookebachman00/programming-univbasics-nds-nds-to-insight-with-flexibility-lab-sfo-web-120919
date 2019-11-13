@@ -31,7 +31,7 @@ def movie_with_director_name(director_name, movie_data)
     :director_name => director_name
   }
 
-  binding.pry
+  
 end
 
 
@@ -44,6 +44,7 @@ def movies_with_director_key(name, movies_collection)
   # returned by this method.
   #
   # INPUT:
+
   # * name: A director's name
   # * movies_collection: An Array of Hashes where each Hash represents a movie
   #
